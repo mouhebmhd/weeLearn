@@ -1,6 +1,7 @@
 .textWarning
 {
     color: yellow;
+    border-color: ref;
 }
 .m-5
 {
