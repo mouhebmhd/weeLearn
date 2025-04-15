@@ -13,4 +13,6 @@ git add * just files in current directory(no sub-directory)
 Git Stash is used to hide local changes 
 1. Working Directory : najem na5ter anahom les fichiers li yatl3ou  : We can Select 
 2. Staging Area : when commiting , all changes will be transfered to the local repo We cannot Select 
-   
+
+git restore => any modification (not saved) in the working directory  will be removed 
+git restore --staged => any modification in the staging area will be restored to the wroking directory
