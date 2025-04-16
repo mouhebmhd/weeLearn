@@ -21,8 +21,7 @@ git restore --staged => any modification in the staging area will be restored to
 Main                                     testingBranch
 C5                                            
 C4                                            
-C3            git branch testingBranch        C3
-C2                                            C2
+
 C1                                            C1
 C0                                            C0
 
