@@ -16,3 +16,20 @@ Git Stash is used to hide local changes
 
 git restore => any modification (not saved) in the working directory  will be removed 
 git restore --staged => any modification in the staging area will be restored to the wroking directory
+
+
+Main                                     testingBranch
+C5                                            
+C4                                            
+C3            git branch testingBranch        C3
+C2                                            C2
+C1                                            C1
+C0                                            C0
+
+git commit -a -m "message" = git add +git commit  
+git commit  -m "message" 
+
+Working Directory  ==> Staging Area ==> Local Repo  ==> Remote Repo     
+    git add 
+                        git commit
+                                        git push   
