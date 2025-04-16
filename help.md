@@ -26,10 +26,15 @@ C2                                            C2
 C1                                            C1
 C0                                            C0
 
-git commit -a -m "message" = git add +git commit  
+git commit -a -m "message" = git add + git commit  
 git commit  -m "message" 
 
 Working Directory  ==> Staging Area ==> Local Repo  ==> Remote Repo     
     git add 
                         git commit
                                         git push   
+
+
+modification 
+    git add + git commit + git push (One commit added local + One commit added)
+git reset Cancel One or More  Commit (Cancel +1 Commit + Local but not in the remote )
